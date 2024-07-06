@@ -41,9 +41,10 @@ Configures a Kafka producer and consumer to manage access log messages.
 ## Usage
 
 1. **Start Kafka and Zookeeper**: Use Docker Compose to start Kafka and Kafdrop for monitoring (`docker-compose up`).
-   
+   ![screen1](screens/s1.PNG)
 3. **Run Server**: Start the server (`npm start`).
-   
+   ![screen2](screens/s2.PNG)
 5. **Log Access**: Send POST requests to `/api/access` with JSON body containing `userId`, `cardID`, and `doorId` to log access events.
-   
+   ![screen3](screens/s3.PNG)
+   ![screen4](screens/s4.PNG)
 
