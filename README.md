@@ -45,8 +45,10 @@ Configures a Kafka producer and consumer to manage access log messages.
 3. **Run Server**: Start the server (`npm start`).
    ![screen2](screens/s2.PNG)
 4. **Log Access**: Send POST requests to `/api/access` with JSON body containing `userId`, `cardID`, and `doorId` to log access events.
+   ![screen3](screens/s4.PNG)
+   
    ![screen3](screens/s3.PNG)
-5. **JSON Data Format**:
+6. **JSON Data Format**:
    Access log data is stored and transmitted in JSON format. Below is an example of the JSON structure used for logging access events:
 ``` [
   {
